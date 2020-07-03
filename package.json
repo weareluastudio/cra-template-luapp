@@ -2,6 +2,15 @@
   "name": "cra-template-luapp",
   "version": "0.1.0",
   "private": true,
+  "main": "template.json",
+  "keywords": [
+    "react", 
+    "create-react-app",
+    "cra-template",
+    "template",
+    "prettier"
+  ],
+ "files": ["template", "template.json"],
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
