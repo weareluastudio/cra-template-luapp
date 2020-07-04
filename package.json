@@ -1,6 +1,6 @@
 {
   "name": "@weareluastudio/cra-template-luapp",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "private": false,
   "author": "LUA Development Studio",
   "main": "template.json",
