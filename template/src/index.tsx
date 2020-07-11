@@ -1,5 +1,7 @@
 import React from 'react'
-import { render, hydrate } from 'react-dom'
+
+// @ts-ignore
+import { render } from 'react-snapshot'
 
 // COMPONENTES
 import App from 'Components/App/App'
@@ -19,7 +21,7 @@ const app: JSX.Element = (
 )
 
 // RECARGAR
-root?.hasChildNodes() ? hydrate(app, root) : render(app, root)
+render(app, root)
 
 // REGISTRAR
 sw.register()

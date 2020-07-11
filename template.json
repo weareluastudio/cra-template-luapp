@@ -13,7 +13,7 @@
             "typescript": "~3.7.2"
         },
     	"scripts": {
-            "config": "yarn add --save-dev prettier react-snap tslint tslint-config-prettier tslint-plugin-prettier tslint-react",
+            "config": "yarn add --save-dev prettier react-snapshot tslint tslint-config-prettier tslint-plugin-prettier tslint-react",
             "start": "react-scripts start",
             "build": "react-scripts build",
             "predeploy": "npm run build",
@@ -22,17 +22,6 @@
             "test": "react-scripts test",
             "eject": "react-scripts eject"
         },    
-        "devDependencies": {
-		    "prettier": "^2.0.5",
-		    "react-snap": "^1.23.0",
-		    "tslint": "^6.1.2",
-		    "tslint-config-prettier": "^1.18.0",
-		    "tslint-plugin-prettier": "^2.3.0",
-		    "tslint-react": "^5.0.0"
-	    },
-	    "reactSnap": {
-		    "puppeteerExecutablePath": "/usr/bin/chromium-browser"
-	    },
         "eslintConfig": {
 		    "extends": "react-app"
 	    }

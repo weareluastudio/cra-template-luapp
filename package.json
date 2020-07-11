@@ -1,6 +1,6 @@
 {
   "name": "@weareluastudio/cra-template-luapp",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "private": false,
   "author": "LUA Development Studio",
   "main": "template.json",
@@ -11,6 +11,9 @@
     "template",
     "prettier",
     "react-router",
+    "line-icons",
+    "react-snapshot",
+    "firebase",
     "typescript"
   ],
   "files": [
