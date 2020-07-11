@@ -1,8 +1,14 @@
 {
   "name": "@weareluastudio/cra-template-luapp",
   "version": "0.1.9",
+  "description": "LUApp its a typescript cra-template with firebase, react-router, line-icons, react-snapshot, prettier and ts-lint for code linting, it also includes HOC for app strings like Android App structure.",
   "private": false,
+  "license": "MIT",
   "author": "LUA Development Studio",
+  "homepage": "https://github.com/weareluastudio/",
+  "repository": {
+    "url": "https://github.com/weareluastudio/cra-template-luapp"
+  },
   "main": "template.json",
   "keywords": [
     "react",
@@ -24,10 +30,12 @@
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
+    "@types/react-router-dom": "^5.1.5",
+    "firebase": "^7.15.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1",
-    "typescript": "~3.7.2"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
