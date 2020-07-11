@@ -76,9 +76,9 @@ yarn:
 ```
 
 ## 🤔 How it works
-### When you create a page you must create a folder on 📖 src/Pages and then edit 💻 src/Components/App to add the page on router. If you work on SPA (Single Page Application) just add components to 📝 Pages/Index/Index.tsx
+When you create a page you must create a folder on 📖 src/Pages and then edit 💻 src/Components/App to add the page on router. If you work on SPA (Single Page Application) just add components to 📝 Pages/Index/Index.tsx
 
-### When you write strings to your app, edit on 🉐 Lang/Strings.json and consume the strings from Context Provider, example:
+When you write strings to your app, edit on 🉐 Lang/Strings.json and consume the strings from Context Provider, example:
 
 ``` javascript
 // Pages/MyPage.tsx
@@ -92,7 +92,7 @@ const MyPage:React.FC = () => {
 }
 ```
 
-### IMPORTANT! Remember to edit ILangPackage interface on 🌎 LocalGlobals/global.d.ts to add strings on 🉐 Lang/Strings.json
+#### IMPORTANT! Remember to edit ILangPackage interface on 🌎 LocalGlobals/global.d.ts to add strings on 🉐 Lang/Strings.json
 ``` typescript
 // LocalGlobals/global.d.ts
 interface ILangs {
@@ -115,10 +115,9 @@ interface ILangPackage {
 
 ----
 
-### This template it's very useful for large or complex projects with many developers, at LUA Development Studio all of our apps are written with this template.
-
-#### 'We use Context Api instead of Redux or MobX, just for performance"
+This template it's very useful for large or complex projects with many developers, at LUA Development Studio all of our apps are written with this template.
+'We use Context Api instead of Redux or MobX, just for performance"
 
 ----
-## LICENSE MIT
-### All rights reserved LUA Development Studio ®
+### LICENSE MIT
+All rights reserved LUA Development Studio ®
