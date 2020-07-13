@@ -47,8 +47,8 @@ yarn:
 |   |-- 🤖 robots.txt
 |-- 📁 src/
 |   |-- 📚 Components/
-|   |   |-- 💻 App/
-|   |       |-- ⚛️ App.tsx
+|   |    |-- 💻 App/
+|   |        |-- ⚛️ App.tsx
 |   |-- 🗃 Context/
 |   |    |-- 📦 MainContext.ts
 |   |-- 😀 Icons/
