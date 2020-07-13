@@ -13,7 +13,7 @@
             "typescript": "~3.7.2"
         },
     	"scripts": {
-            "config": "yarn add --save-dev prettier react-snapshot tslint tslint-config-prettier tslint-plugin-prettier tslint-react",
+            "config": "yarn add --save-dev prettier react-snapshot tslint tslint-config-prettier tslint-plugin-prettier tslint-react node-sass",
             "start": "react-scripts start",
             "build": "react-scripts build",
             "predeploy": "npm run build",
