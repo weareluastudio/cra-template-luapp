@@ -20,6 +20,11 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.<br />
 Your app is ready to be deployed!
 
+### `yarn deploy`
+
+Builds the app for production to the `build` folder.<br />
+and then prerender react application with React-Snapshot after that its ready to deploy on firebase if you want. ( Remove firebase if you prefer other hosting provider )
+
 ### `yarn eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**

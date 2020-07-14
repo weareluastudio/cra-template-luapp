@@ -4,9 +4,6 @@ import React from 'react'
 // ROUTER
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
-// ESTILOS
-import 'Icons/Icons.css'
-
 // STRINGS
 import Strings from 'Lang/Strings.json'
 

@@ -7,7 +7,7 @@
 
 <img src='https://img.shields.io/badge/PoweredBy-LUADevStudio-blue?style=for-the-badge' title='NPM Version'/>
 
-<p>LUApp it's a typescript cra-template with firebase, react-router, line-icons, react-snapshot, prettier and ts-lint for code linting, it also includes HOC for app strings like Android App structure.</p>
+<p>LUApp it's a typescript cra-template with firebase, react-router, react-feather, react-snapshot, prettier and ts-lint for code linting, it also includes HOC for app strings like Android App structure.</p>
 </div>
 
 ----
