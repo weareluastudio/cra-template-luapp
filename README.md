@@ -51,9 +51,6 @@ yarn:
 |   |        |-- ⚛️ App.tsx
 |   |-- 🗃 Context/
 |   |    |-- 📦 MainContext.ts
-|   |-- 😀 Icons/
-|   |    |-- 🖌 Icons.css
-|   |    |-- 🅰️ LineIcons.woff2
 |   |-- 🔑 Keys/
 |   |    |-- 📦 firebase.ts
 |   |    |-- 🗝 keys.json
