@@ -1,6 +1,6 @@
 {
   "name": "cra-template-luapp",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "LUApp its a typescript cra-template with firebase, react-router, react-feather, react-snapshot, prettier and ts-lint for code linting, it also includes HOC for app strings like Android App structure.",
   "private": false,
   "license": "MIT",
