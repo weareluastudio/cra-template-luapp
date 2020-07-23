@@ -5,13 +5,13 @@
             "@types/react": "^16.9.0",
             "@types/react-dom": "^16.9.0",
             "@types/react-router-dom": "^5.1.5",
-            "firebase": "^7.15.1",
+            "firebase": "^7.16.1",
             "react": "^16.13.1",
             "react-dom": "^16.13.1",
             "react-router-dom": "^5.2.0",
             "react-scripts": "3.4.1",
             "react-feather": "2.0.8",
-            "typescript": "~3.7.2"
+            "typescript": "~3.9.7"
         },
     	"scripts": {
             "config": "yarn add --save-dev prettier react-snapshot tslint tslint-config-prettier tslint-plugin-prettier tslint-react node-sass",
