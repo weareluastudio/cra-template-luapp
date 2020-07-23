@@ -17,12 +17,12 @@
 
 yarn:
 ```
-    npx create-react-app [project-name] --template luapp
+    npx create-react-app [project-name] --template @weareluastudio/cra-template-luapp
 ```
 
 npm:
 ```
-    npm init react-app [project-name] --template luapp
+    npm init react-app [project-name] --template @weareluastudio/cra-template-luapp
 ```
 
 ## 🔌 Install optional dependencies (prettier, tslint, react-snapshot)
