@@ -14,13 +14,13 @@
             "typescript": "~3.9.7"
         },
     	"scripts": {
-            "config": "yarn add --save-dev prettier react-snapshot tslint tslint-config-prettier tslint-plugin-prettier tslint-react node-sass",
+            "config": "yarn add --dev prettier react-snapshot tslint tslint-config-prettier tslint-plugin-prettier tslint-react node-sass",
             "start": "react-scripts start",
             "build": "react-scripts build && react-snapshot",
-		    "predeploy": "npm run build",
-		    "deploy": "firebase deploy",
-		    "test": "react-scripts test",
-		    "eject": "react-scripts eject"
+	    "predeploy": "npm run build",
+	    "deploy": "firebase deploy",
+	    "test": "react-scripts test",
+	    "eject": "react-scripts eject"
         },    
         "eslintConfig": {
 		    "extends": "react-app"
