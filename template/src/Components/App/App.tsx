@@ -1,5 +1,5 @@
 // REACT
-import React from 'react'
+import React, { lazy, Suspense } from 'react'
 
 // ROUTER
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
@@ -7,11 +7,11 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 // STRINGS
 import Strings from 'Lang/Strings.json'
 
-// PAGINAS
-import Index from 'Pages/Index/Index'
-
 // CONTEXTO
 import MainContext from 'Context/MainContext'
+
+// PAGINAS
+const Index = lazy(() => import('Pages/Index'))
 
 // ESTADO
 interface AppState {
@@ -28,11 +28,13 @@ const DefState: AppState = {
 const App: React.FC = () => {
 	return (
 		<MainContext.Provider value={{ ...DefState }}>
-			<BrowserRouter>
-				<Switch>
-					<Route exact path='/' component={Index} />
-				</Switch>
-			</BrowserRouter>
+			<Suspense fallback={<span>loading ...</span>}>
+				<BrowserRouter>
+					<Switch>
+						<Route exact path='/' component={Index} />
+					</Switch>
+				</BrowserRouter>
+			</Suspense>
 		</MainContext.Provider>
 	)
 }
