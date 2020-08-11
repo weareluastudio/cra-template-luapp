@@ -1,5 +1,5 @@
 <div align="center">
-<img src='https://blog.wearelua.com/images/general/logo.png' title='LUA Logo' height='70' />
+<img src='https://blog.wearelua.com/images/icons/icon-logo-512px.png' title='LUA Logo' height='70' />
 <h1>LUApp® | cra-template</h1>
 <img src='https://img.shields.io/npm/v/@weareluastudio/cra-template-luapp?style=for-the-badge' title='NPM Version'/>
 
