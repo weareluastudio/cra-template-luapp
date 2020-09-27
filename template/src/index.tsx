@@ -1,7 +1,6 @@
+// REACT
 import React from 'react'
-
-// @ts-ignore
-import { render } from 'react-snapshot'
+import { render } from 'react-dom'
 
 // COMPONENTES
 import App from 'Components/App/App'
