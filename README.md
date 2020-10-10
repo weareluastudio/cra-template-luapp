@@ -51,12 +51,10 @@ yarn:
 |   |        |-- ⚛️ App.tsx
 |   |-- 🗃 Context/
 |   |    |-- 📦 MainContext.ts
-|   |-- 🔑 Keys/
-|   |    |-- 📦 firebase.ts
-|   |    |-- 🗝 keys.json
 |   |-- 🉐 Lang/
 |   |    |-- 📄 Strings.json
-|   |-- 🌎 LocalGlobals/
+|   |-- 🌎 Env/
+|   |--  |-- 🉐 Strings.ts
 |   |    |-- 📦 global.d.ts
 |   |-- 📖 Pages/
 |   |    |-- 📝 Index/
@@ -89,14 +87,14 @@ const MyPage:React.FC = () => {
 }
 ```
 
-#### IMPORTANT! Remember to edit ILangPackage interface on 🌎 LocalGlobals/global.d.ts to add strings on 🉐 Lang/Strings.json
+#### IMPORTANT! interface on 🌎 Env/Strings.ts always reference to 🉐 Lang/Strings.json and now since version 0.4.8 its autogenerate on change so dont worry 
 ``` typescript
-// LocalGlobals/global.d.ts
-interface ILangs {
-    es: ILangPackage
+// Env/Strings.ts
+export interface Strings {
+    es: Es
 }
 
-interface ILangPackage {
+export interface Es {
     hello: string
 }
 ```

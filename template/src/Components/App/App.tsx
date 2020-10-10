@@ -1,5 +1,5 @@
 // REACT
-import React, { lazy, Suspense } from 'react'
+import React from 'react'
 
 // ROUTER
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
@@ -11,12 +11,15 @@ import Strings from 'Lang/Strings.json'
 import MainContext from 'Context/MainContext'
 
 // PAGINAS
-const Index = lazy(() => import('Pages/Index'))
+import Index from 'Pages/Index/Index'
+
+// INTERFACE
+import { Es } from 'Env/Strings'
 
 // ESTADO
 interface AppState {
 	langCode: string
-	lang: ILangPackage
+	lang: Es
 }
 
 // ESTADO POR DEFECTO

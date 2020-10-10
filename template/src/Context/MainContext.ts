@@ -3,9 +3,12 @@ import { createContext, Context } from 'react'
 // STRINGS
 import Strings from 'Lang/Strings.json'
 
+// INTERFACE
+import { Es } from 'Env/Strings'
+
 // KEYS
 interface ContextProps {
-	lang: ILangPackage
+	lang: Es
 	langCode: string
 }
 

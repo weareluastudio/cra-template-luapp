@@ -1,6 +1,6 @@
 {
   "name": "@weareluastudio/cra-template",
-  "version": "0.4.3",
+  "version": "0.4.81",
   "description": "LUApp its a typescript cra-template with firebase, react-router, react-feather, react-snapshot, prettier and ts-lint for code linting, it also includes HOC for app strings like Android App structure.",
   "private": false,
   "license": "MIT",
@@ -17,7 +17,6 @@
     "template",
     "prettier",
     "react-router",
-    "feather",
     "react-snapshot",
     "firebase",
     "typescript",
@@ -45,17 +44,5 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   }
 }
