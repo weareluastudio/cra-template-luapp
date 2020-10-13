@@ -13,7 +13,8 @@
     },
     "scripts": {
       "config": "yarn add --dev prettier tslint tslint-config-prettier tslint-plugin-prettier tslint-react node-sass quicktype onchange",
-      "start": "react-scripts start && onchange './src/Lang/Strings.json' -- quicktype ./src/Lang/Strings.json -o ./src/LocalGlobals/Strings.ts --just-types",
+      "dev": "react-scripts start",
+      "start": "onchange './src/Lang/Strings.json' -- quicktype ./src/Lang/Strings.json -o ./src/LocalGlobals/Strings.ts --just-types & npm run dev",
       "build": "react-scripts build",
       "predeploy": "npm run build",
       "deploy": "firebase deploy",
