@@ -31,13 +31,11 @@ const DefState: AppState = {
 const App: React.FC = () => {
 	return (
 		<MainContext.Provider value={{ ...DefState }}>
-			<Suspense fallback={<span>loading ...</span>}>
-				<BrowserRouter>
-					<Switch>
-						<Route exact path='/' component={Index} />
-					</Switch>
-				</BrowserRouter>
-			</Suspense>
+			<BrowserRouter>
+				<Switch>
+					<Route exact path='/' component={Index} />
+				</Switch>
+			</BrowserRouter>
 		</MainContext.Provider>
 	)
 }
