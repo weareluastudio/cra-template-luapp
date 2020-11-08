@@ -12,15 +12,11 @@
 	outline: none;
 }
 
-@mixin tab-focus() {
-	outline: none;
-}
-
 body {
 	--white: #fff;
 	font-size: 15px;
 	overflow-x: hidden;
-	background:var(--white);
+	background: var(--white);
 }
 
 /* LISTAS */
